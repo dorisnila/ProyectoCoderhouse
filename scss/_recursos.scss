@@ -1,0 +1,117 @@
+@use 'variables' as *;
+
+/* Página Recursos */
+/* Recursos - Container y cards */
+.cardrecursos-container,
+.revistas-container,
+.comics-container,
+.form-opac-container {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+
+    .cardrecursos-container,
+    .revistas-container,
+    .comics-container,
+    .form-opac-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardrecursos {
+        margin-bottom: 130px;
+        width: 50%;
+    }
+}
+
+.cardrecursos {
+    width: 286px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardimg {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.cardtitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: $font;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cardcontent {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 1.4;
+    font-family: $font;
+}
+
+.button1 {
+    width: 150px;
+    background-color: $color5;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-family: $font;
+    margin-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+.button1:hover {
+    background-color: $color4;
+}
+
+/* Fin container y cards para Recursos */
+
+/* Recursos - Libros */
+/* Container del OPAC */
+.form-opac-container {
+    justify-content: center;
+}
+
+/* Formulario simulado para OPAC */
+.form-opac {
+    width: 70%;
+    padding: 50px;
+    background-color: #f8f9fa;
+    border: solid 3px #8cb4cc;
+    border-radius: 18px;
+}
+
+/* Caja de búsqueda */
+.search {
+    width: 90%;
+    line-height: 1.8;
+    border-radius: 6px;
+    border: solid 0.5px #cccccc;
+}
+
+/* Fin Recursos - Libros */
+
+/* Recursos - Revistas y Comics */
+.revistas-container,
+.comics-container {
+    margin-top: 50px;
+}
+
+.revistas-container ul,
+.comics-container ul {
+    color: #0d0d0d;
+}
+
+.revistas-container li,
+.comics-container li {
+    list-style-type: circle;
+}
+
+/* Fin Página Recursos */

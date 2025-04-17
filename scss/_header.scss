@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+/* Header con logo y barra de navegación */
+
+.navbar {
+    background-color: $color2;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+/* Fin Header con logo y barra de navegación*/
+
+
+
+

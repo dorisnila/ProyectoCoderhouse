@@ -1,0 +1,60 @@
+@use 'variables' as *;
+
+/* Página Servicios */
+/* Servicios acordión  */
+.accordion {
+    border: dashed 12px $color5;
+}
+
+.accordion-button {
+    margin-bottom: 3px;
+}
+
+/* -Fin Servicios acordión */
+/* Servicios - GRID con Plazos de préstamo */
+.container-plazos {
+    margin-left: 20%;
+    width: 60%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-areas: "plazos plazos" "libros librosplazo" "revistas revplazo" "comics comicplazo" "nota nota";
+    grid-template-columns: 1fr 2fr;
+}
+
+.container-plazos>div {
+    border: solid 2px $color2;
+    padding: 10px;
+}
+
+.container-plazos>div.plazos {
+    grid-area: plazos;
+    text-align: center;
+    background-color: $color2;
+}
+
+.container-plazos>div.librosplazo {
+    grid-area: librosplazo;
+}
+
+.container-plazos>div.revistas {
+    grid-area: revistas;
+}
+
+.container-plazos>div.revplazo {
+    grid-area: revplazo;
+}
+
+.container-plazos>div.comics {
+    grid-area: comics;
+}
+
+.container-plazos>div.comicplazo {
+    grid-area: comicplazo;
+}
+
+.container-plazos>div.nota {
+    grid-area: nota;
+}
+
+/* Fin Servicios - GRID con Plazos de Préstamo */
+/* Fin Página Servicios */

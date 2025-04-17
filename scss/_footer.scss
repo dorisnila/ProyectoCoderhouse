@@ -1,0 +1,43 @@
+@use 'variables' as *;
+
+/* Footer */
+footer {
+    padding-top: 20px;
+    background-color: $color2;
+    text-align: left;
+    line-height: normal;
+    box-shadow: 0 -5px 5px -5px #333;
+}
+
+.rowfooter {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1006px) {
+    .rowfooter {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+}
+
+.footerleft {
+    width: 40%;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+.footerright {
+    width: 40%;    
+}
+
+.footerright ul {
+    list-style-type: none;
+        margin-left: -30px;
+}
+
+/* Fin Footer */

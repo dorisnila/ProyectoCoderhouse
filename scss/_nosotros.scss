@@ -1,0 +1,63 @@
+@use 'variables' as *;
+
+/* Página Nosotros */
+/* Filas que alternan texto e imagen */
+
+.row-textimg,
+.row-imgtext {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-img {
+    width: 400px;
+}
+
+.col-text {
+    width: 40%;
+    text-align: center;
+}
+
+.col-text p {
+    letter-spacing: 2px;
+    font-size: larger;
+}
+
+.button2 {
+    width: 150px;
+    background-color: $color5;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-family: $font;
+    margin: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 20px;
+    letter-spacing: normal;
+}
+
+.imgnosotros {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1006px) {
+    .row-textimg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .row-imgtext {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Fin Página Nosotros */
