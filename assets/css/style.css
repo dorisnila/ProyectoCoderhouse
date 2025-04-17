@@ -81,7 +81,6 @@ footer {
 .footerleft {
   width: 40%;
   font-style: italic;
-<<<<<<< HEAD
   font-weight: 500;
 }
 
@@ -93,25 +92,22 @@ footer {
   list-style-type: none;
   margin-left: -30px;
 }
-
-=======
-  font-weight: 700;
+ 
 }
 
 .footercenter {
   background-color: #ffbb9b;
 }
->>>>>>> 919780a6f1dee4d31ce8b8aba3812db610079b3f
+
 /* Fin Footer */
 /* Home */
 /* Home - Imagen de fondo*/
 #home {
-<<<<<<< HEAD
   background-image: url("../img/home.webp");
   background-size: 100% 100%;
   height: 400px;
 =======
-  background-image: url("../img/homecomp.jpg");
+  background-image: url("../assets/img/homecomp.jpg");
   background-size: 100% 100%;  
   height: 502px;
 >>>>>>> 919780a6f1dee4d31ce8b8aba3812db610079b3f
