@@ -84,12 +84,8 @@ footer {
   font-weight: 500;
 }
 
-.footercenter {
-  line-height: 50%;
-}
-
 .footerright {
-  line-height: 60%;
+  list-style-type: none;
 }
 /* Fin Footer */
 /* Home */
